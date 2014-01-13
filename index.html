@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset='utf-8' />
+    <meta http-equiv="X-UA-Compatible" content="chrome=1" />
+    <meta name="description" content="Panda008.github.io : " />
+
+    <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
+
+    <title>Panda008.github.io</title>
+  </head>
+
+  <body>
+
+    <!-- HEADER -->
+    <div id="header_wrap" class="outer">
+        <header class="inner">
+          <a id="forkme_banner" href="https://github.com/jj871231/panda008.github.io">View on GitHub</a>
+
+          <h1 id="project_title">Panda008.github.io</h1>
+          <h2 id="project_tagline"></h2>
+
+            <section id="downloads">
+              <a class="zip_download_link" href="https://github.com/jj871231/panda008.github.io/zipball/master">Download this project as a .zip file</a>
+              <a class="tar_download_link" href="https://github.com/jj871231/panda008.github.io/tarball/master">Download this project as a tar.gz file</a>
+            </section>
+        </header>
+    </div>
+
+    <!-- MAIN CONTENT -->
+    <div id="main_content_wrap" class="outer">
+      <section id="main_content" class="inner">
+        <p>&lt;!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"<a href="http://www.w3.org/TR/html4/loose.dtd%22%3E">http://www.w3.org/TR/html4/loose.dtd"&gt;</a>
+
+    </p>
+        我的桌面<br><pre><code>    &lt;script type="text/javascript" src="extjs/ext/ext-all-debug.js"&gt;&lt;/script&gt;
+    &lt;script type="text/javascript" src="extjs/ext/ext-lang-zh_CN.js"&gt;&lt;/script&gt;
+
+    &lt;script type="text/javascript"&gt;
+    Ext.Loader.setPath({
+        'Ext.ux.desktop': 'extjs/core',
+        'Desk.modules' : 'modules',
+        MyDesktop: ''
+    });
+    Ext.Loader.setConfig({ 
+        enabled: true, 
+        disableCaching: false //禁用缓存 附加脚本文件的当前时间戳，以防止缓存。 默认true
+    });
+
+    Ext.require('MyDesktop.App');
+    Ext.themeName = 'neptune';
+    var myDesktopApp;
+    Ext.onReady(function () {
+        //myDesktopApp = new MyDesktop.App();
+        myDesktopApp = Ext.create("MyDesktop.App");
+    });
+&lt;/script&gt;
+&lt;/head&gt;
+&lt;body&gt;
+
+&lt;/body&gt;
+</code></pre>
+
+<p></p>
+      </section>
+    </div>
+
+    <!-- FOOTER  -->
+    <div id="footer_wrap" class="outer">
+      <footer class="inner">
+        <p class="copyright">Panda008.github.io maintained by <a href="https://github.com/jj871231">jj871231</a></p>
+        <p>Published with <a href="http://pages.github.com">GitHub Pages</a></p>
+      </footer>
+    </div>
+
+    
+
+  </body>
+</html>
